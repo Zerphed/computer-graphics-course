@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DB686EF8-7832-4323-8C64-E0B60F586582}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Foundation">
+      <UniqueIdentifier>{7b5949a7-3eb1-45b0-ad39-c8905203a50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{43ec91b6-f53b-476e-bddc-9aaa5c33ac81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rays">
+      <UniqueIdentifier>{9bccb55b-2bb3-401d-8ab9-452f4b44738d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lights and Materials">
+      <UniqueIdentifier>{2dd6cb10-e084-4177-8a72-d6c3469c4ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Generation">
+      <UniqueIdentifier>{af32de55-d629-43e2-adb7-e8d407510c2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\four\SceneParser.h">
+      <Filter>Source Files\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\VecUtils.h">
+      <Filter>Source Files\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\Args.h">
+      <Filter>Source Files\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\Box.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\Group.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\Object3D.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\Plane.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\Sphere.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\Triangle.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\Ray.h">
+      <Filter>Source Files\Rays</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\RayTracer.h">
+      <Filter>Source Files\Rays</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\Light.h">
+      <Filter>Source Files\Lights and Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\DirectionalLight.h">
+      <Filter>Source Files\Lights and Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\PointLight.h">
+      <Filter>Source Files\Lights and Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\Material.h">
+      <Filter>Source Files\Lights and Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\Hit.h">
+      <Filter>Source Files\Rays</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\Camera.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\Transform.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\Filter.h">
+      <Filter>Source Files\Image Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\Film.h">
+      <Filter>Source Files\Image Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\Sampler.h">
+      <Filter>Source Files\Image Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four\PerlinNoise.h">
+      <Filter>Source Files\Lights and Materials</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\four\SceneParser.cpp">
+      <Filter>Source Files\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\main.cpp">
+      <Filter>Source Files\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\Args.cpp">
+      <Filter>Source Files\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\Box.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\Group.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\Object3D.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\Plane.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\Sphere.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\Triangle.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\RayTracer.cpp">
+      <Filter>Source Files\Rays</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\Light.cpp">
+      <Filter>Source Files\Lights and Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\DirectionalLight.cpp">
+      <Filter>Source Files\Lights and Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\PointLight.cpp">
+      <Filter>Source Files\Lights and Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\Material.cpp">
+      <Filter>Source Files\Lights and Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\Camera.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\Transform.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\Film.cpp">
+      <Filter>Source Files\Image Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\Filter.cpp">
+      <Filter>Source Files\Image Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\Sampler.cpp">
+      <Filter>Source Files\Image Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four\PerlinNoise.cpp">
+      <Filter>Source Files\Lights and Materials</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
