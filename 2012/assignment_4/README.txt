@@ -1,5 +1,5 @@
 Name: Joonas Nissinen
-Student ID: 84362C
+Student ID: ******
 Assignment: Assignment 4 - Ray Tracer
 Date: 9.12.2012
 

@@ -1,5 +1,5 @@
 Name: Joonas Nissinen
-Student id: 84362C
+Student id: ******
 Assignment: Assignment 1
 
 
